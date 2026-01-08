@@ -45,6 +45,21 @@ if  answer5 == "A":
       spring_point += 1
 elif answer5 == "B":
     winter_points += 1 
+elif answer5 == "C":
+      fall_points+= 1
+elif answer5 == "D":
+      summer_points +=1 
+
+    
+if spring_point >= winter_points and spring_point >= fall_points and spring_point >= summer_points:
+    print("you love spring")
+elif winter_points >= spring_point and winter_points >= fall_points and winter_points >= summer_points:
+    print("You love winter!")
+elif fall_points >= spring_point and fall_points >= winter_points and fall_points >= summer_points:
+    print("You love fall!")
+elif  summer_points >= spring_point and summer_points >= winter_points and summer_points >= fall_points:
+    print("you love summer")
+    
            
 
 
