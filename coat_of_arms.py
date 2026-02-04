@@ -9,7 +9,7 @@ s4 = create_sprite("lasagna", -100, -100)
 
 message1 = create_sprite("alien",-200,200)
 message1.color("red")
-message1.write("will hintz",font = ("Arial", 40, "normal"))
+message1.write("will_Hintz",font = ("Arial", 40, "normal"))
 message1.hideturtle()
 
 message2 = create_sprite("alien",-200,-250)
