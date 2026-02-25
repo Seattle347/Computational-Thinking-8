@@ -6,7 +6,7 @@ y1 = 0
 set_background("park")
 
 t1 = create_sprite("pineapple",x1,y1)
-# the goal of the game is to get as many pineapples as possible on the screen
+#  the goal of the game is to get as many pineapples as possible on the screen
 # OPTIONAL: use this invisible alien to say a message
 # message_sprite = create_sprite("alien", -200,200)
 # message_sprite.hideturtle()
