@@ -93,7 +93,7 @@ for i in range(10000000000):
             tagger = "mango"
             s1.write("Tag!", font=("Arial", 15, "normal"))
 
-        if i >= 8 * 100: 
+        if i >= 1000:
            break
     
 
